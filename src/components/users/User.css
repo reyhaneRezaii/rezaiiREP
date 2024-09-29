@@ -1,0 +1,130 @@
+.UserTable {
+    position: relative;
+    top: 125px;
+    width: 80%;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .UserTable tbody td {
+    width: 20%;
+  }
+  
+  .tdOfButtons button {
+    margin: 10px;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  @media (max-width: 1130px) {
+    .tdOfButtons button {
+      margin: 10px;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+  
+    .UserTable thead th {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .UserTable td,
+    .UserTable th {
+      width: 40px;
+      font-size: 15px;
+    }
+    .tdOfButtons button {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 940px) {
+    .UserTable {
+      width: 100%;
+    }
+    .UserTable .tdOfButtons button {
+      width: 50px;
+      padding: 5px 0;
+    }
+    .UserTable td,
+    .UserTable th {
+      width: 100px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .UserTable {
+      right: 90px;
+    }
+  
+    .UserTable {
+      width: 70%;
+    }
+    .UserTable .tdOfButtons button {
+      width: 30px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .UserTable {
+      width: 60%;
+    }
+    .UserTable .tdOfButtons button {
+      width: 25px;
+    }
+  }
+  @media (max-width: 620px) {
+    .UserTable {
+      right: 0px;
+    }
+    .UserTable {
+      width: 85%;
+    }
+    .UserTable .tdOfButtons button {
+      width: 45px;
+    }
+  }
+  @media (max-width: 500px) {
+    .UserTable {
+      width: 60%;
+      right: 100px;
+      margin: 1px;
+    }
+    
+   .UserTable th {
+      display: none;
+    }
+    .UserTable .tdOfButtons button {
+      width: 60px;
+      border-radius:5px;
+      padding: 7px;
+    }
+    .UserTable .tdOfButtons {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .productTableTbody td {
+      display: block;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      right: 80px;
+    }
+  }
+  @media (max-width: 380px) {
+   
+    .UserTable {
+      right: 65px;
+      margin: 1px;
+    }
+    
+  }
+  

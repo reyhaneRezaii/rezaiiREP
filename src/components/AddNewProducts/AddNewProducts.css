@@ -1,0 +1,144 @@
+.products-main {
+  margin-top: 100px;
+  width: 85%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  position: relative;
+  right: 100px;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 45px;
+ 
+}
+ .submitBtn{
+   background-color: var(--blue);
+   border: none;
+   color: var(--white);
+   padding: 10px;
+   border-radius: 14px;
+ }
+.product-title {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+.addproducts-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#inputElm {
+  width: 470px;
+  margin-bottom: 15px;
+  height: 50px;
+}
+@media (max-width: 1430px) {
+  #inputElm {
+    width: 400px;
+  }
+}
+@media (max-width: 1250px) {
+  #inputElm {
+    width: 370px;
+  }
+}
+
+@media (max-width: 1180px) {
+  #inputElm {
+    width: 350px;
+  }
+}
+@media (max-width: 1130px) {
+  #inputElm {
+    width: 330px;
+  }
+}
+@media (max-width: 1075px) {
+  #inputElm {
+    width: 450px;
+    height: 40px;
+  }
+  .products-main {
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 80px;
+  }
+  .addproducts-form-group {
+    display: flex;
+    justify-content: center;
+  }
+  .submitBtn {
+    width: 450px;
+  }
+}
+@media (max-width: 900px) {
+  .products-main {
+    right: 60px;
+  }
+  #inputElm {
+    width: 380px;
+    height: 40px;
+  }
+  .submitBtn {
+    width: 380px;
+  }
+}
+@media (max-width: 701px) {
+  .products-main {
+    right: 160px;
+  }
+}
+@media (max-width: 640px) {
+  .products-main {
+    right: 160px;
+  }
+  #inputElm {
+    width: 340px;
+    height: 35px;
+  }
+  .submitBtn {
+    width: 340px;
+  }
+}
+@media (max-width: 621px) {
+  .products-main {
+    right: 60px;
+  }
+  #inputElm {
+    width: 340px;
+    height: 35px;
+  }
+  .submitBtn {
+    width: 340px;
+  }
+}
+@media (max-width: 420px) {
+  .products-main {
+    right: 50px;
+  }
+  #inputElm {
+    width: 300px;
+    height: 35px;
+  }
+  .submitBtn {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .products-main {
+    right: 40px;
+  }
+  #inputElm {
+    width: 290px;
+    height: 35px;
+  }
+  .submitBtn {
+    width: 290px;
+  }
+}

@@ -1,0 +1,130 @@
+.commentsTable {
+  position: relative;
+  top: 125px;
+  width: 80%;
+  margin: auto;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.commentsTable tbody td {
+  width: 20%;
+}
+
+.tdOfButtons button {
+  margin: 10px;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width: 1130px) {
+  .tdOfButtons button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .commentsTable thead th {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .commentsTable td,
+  .commentsTable th {
+    width: 40px;
+    font-size: 15px;
+  }
+  .tdOfButtons button {
+    font-size: 10px;
+  }
+}
+@media (max-width: 940px) {
+  .commentsTable {
+    width: 100%;
+  }
+  .commentsTable .tdOfButtons button {
+    width: 50px;
+    padding: 5px 0;
+  }
+  .commentsTable td,
+  .commentsTable th {
+    width: 100px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .commentsTable {
+    right: 90px;
+  }
+
+  .commentsTable {
+    width: 70%;
+  }
+  .commentsTable .tdOfButtons button {
+    width: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .commentsTable {
+    width: 60%;
+  }
+  .commentsTable .tdOfButtons button {
+    width: 25px;
+  }
+}
+@media (max-width: 620px) {
+  .commentsTable {
+    right: 0px;
+  }
+  .commentsTable {
+    width: 85%;
+  }
+  .commentsTable .tdOfButtons button {
+    width: 45px;
+  }
+}
+@media (max-width: 500px) {
+  .commentsTable {
+    width: 60%;
+  }
+  .commentsTable {
+    right: 100px;
+    margin: 1px;
+  }
+ .commentsTable th {
+    display: none;
+  }
+  .commentsTable .tdOfButtons button {
+    width: 60px;
+    border-radius:5px;
+    padding: 7px;
+  }
+  .commentsTable .tdOfButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .commentsTable td {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 80px;
+  }
+}
+@media (max-width: 380px) {
+ 
+  .commentsTable {
+    right: 65px;
+    margin: 1px;
+  }
+  
+}

@@ -1,0 +1,51 @@
+.detailModal {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  bottom: 0px;
+  left: 0px;
+  visibility: hidden;
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  align-items: center;
+}
+.detailModal.active {
+  opacity: 1;
+  visibility: visible;
+}
+.parent {
+  background-color: var(--white);
+}
+.iconClose {
+  font-size: 1.5rem;
+  margin: 5px 25px;
+  cursor: pointer;
+}
+.tableDetail {
+  background-color: var(--white);
+  --bs-body-bg: #0000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tableDetail td {
+  margin: 10px 10px;
+}
+.tableDetail th {
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  .tabelProduct th {
+    display: block;
+  }
+}
+
+.commentDetalModal{
+  padding: 25px;
+}
