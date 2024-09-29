@@ -2,6 +2,7 @@
   "name": "cmsproject",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://reyhanerezaii.github.io/rezaiiREP",
   "dependencies": {
     "@supabase/supabase-js": "^2.45.3",
     "bootstrap": "^5.3.3",
