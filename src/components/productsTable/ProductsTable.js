@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Table from "react-bootstrap/Table";
 import "./ProductsTable.css";
 import DeleteModal from "../DeleteModal/DeleteModal";
-import EditModal from "../EditModal/EditeModal";
+import EditModal from "../EditModal/EditeModal";  
 import ErrorBox from "../ErrorBox/ErrorBox";
 import DetailModal from "../DetailsModal/DetailModal";
 import { CiDollar } from "react-icons/ci";
