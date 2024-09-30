@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rezaiiREP/static/css/main.a7111abb.css",
+    "main.js": "/rezaiiREP/static/js/main.63caa6f8.js",
+    "static/js/952.48333001.chunk.js": "/rezaiiREP/static/js/952.48333001.chunk.js",
+    "static/js/488.2792cace.chunk.js": "/rezaiiREP/static/js/488.2792cace.chunk.js",
+    "static/media/Lalezar-Regular.ttf": "/rezaiiREP/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
+    "index.html": "/rezaiiREP/index.html",
+    "main.a7111abb.css.map": "/rezaiiREP/static/css/main.a7111abb.css.map",
+    "main.63caa6f8.js.map": "/rezaiiREP/static/js/main.63caa6f8.js.map",
+    "952.48333001.chunk.js.map": "/rezaiiREP/static/js/952.48333001.chunk.js.map",
+    "488.2792cace.chunk.js.map": "/rezaiiREP/static/js/488.2792cace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7111abb.css",
+    "static/js/main.63caa6f8.js"
+  ]
+}
